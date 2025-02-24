@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  text-classifier:
+    build: .
+    container_name: text-classifier-api
+    ports:
+      - "8000:8000"
+
